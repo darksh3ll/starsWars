@@ -1,0 +1,7 @@
+@import '~antd/dist/antd.css';
+h1 {
+    color: gold;
+}
+.saisie {
+    width: 400px;
+}

@@ -1,0 +1,29 @@
+body {
+    min-height: 100vh;
+    background: url("http://www.ultradrive.com/images/rdx_starfield.jpg") fixed center;
+    margin: 0;
+    padding: 0;
+    font-family:starswars;
+
+}
+
+h1 {
+    color: gold;
+}
+@font-face {
+    font-family: "starswars";
+    src: url("./assets/fonts/STARWARS.woff");
+}
+
+
+/*RESPONSIVE*/
+/*IPAD*/
+@media screen and (min-width: 425px) {
+
+
+}
+
+/*Medium*/
+@media screen and (min-width: 768px) {
+}
+
