@@ -10,6 +10,7 @@ class SearchBox extends Component {
     handleChange = (e) => {
         this.setState({value : e.target.value})
     };
+
      fetchData  = async input => {
 
         const data = await fetch('https://swapi.co/api/?format=json');
@@ -21,6 +22,7 @@ class SearchBox extends Component {
     render() {
       this.fetchData();
         return (
+
            <Input className="saisie"
                     value={this.state.value}
                     onChange = {this.handleChange}
